@@ -1,0 +1,36 @@
+*{
+    background-color: #fff5ee;
+}
+
+section {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+
+section div{
+    display: grid;
+    row-gap: 20px;
+}
+
+section span{
+    font-size: 40px;
+    font-family:  'Amatic SC', cursive;
+    text-align: center;
+}
+
+/* CSS del efecto de las cajitas */
+
+section img {
+    border-radius: 30px;
+    transition: all 0.2s ease 
+}
+section img:hover{
+    transform: scale(1.03);
+    border: 2px solid rgb(252, 157, 203);
+    box-shadow: 4px 3px rgb(250, 210, 229) ;
+    overflow: hidden;
+
+}   
+
