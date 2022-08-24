@@ -1,0 +1,33 @@
+*{
+    background-color: #fff5ee;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content img{
+    width: 350px;
+    height: 500px;
+}
+
+.content div{
+    padding-right: 20px;
+    border: 5px solid rgb(208, 221, 230);
+}
+
+.content ul{
+    font-family:  'Amatic SC', cursive;
+    font-size: 30px;
+    list-style-image: url(/imágenes/cookie2.svg);
+}
+
+/* .content ul li{
+    padding-left: 10px;
+}
+.content ul li::marker{
+    content: url(/imágenes/cookie2.svg);
+} */
+
+
