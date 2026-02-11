@@ -9,10 +9,10 @@
 .content h1 {
     border: none;
 }
-
 .content img {
     width: 350px;
     height: 500px;
+    border-radius: 1.5rem;
 }
 
 .content ul {
@@ -41,10 +41,11 @@
 .ingredients {
     padding: 1rem;
     border: 5px solid rgb(208, 221, 230);
+    border-radius: 1rem;
 }
 
 .steps {
     padding: 1rem;
     border: 5px solid rgb(208, 221, 230);
+    border-radius: 1rem;
 }
-
