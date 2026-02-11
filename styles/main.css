@@ -1,32 +1,31 @@
 section {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
-section div{
+section div {
     display: grid;
-    row-gap: 20px;
+    row-gap: 1.5rem;
 }
 
-section span{
+section span {
     font-size: 40px;
-    font-family:  'Amatic SC', cursive;
     text-align: center;
 }
 
 /* CSS del efecto de las cajitas */
 
 section img {
-    border-radius: 30px;
-    transition: all 0.2s ease 
+    border-radius: 1.5rem;
+    transition: all 0.2s ease
 }
-section img:hover{
+
+section img:hover {
     transform: scale(1.03);
-    border: 2px solid rgb(252, 157, 203);
-    box-shadow: 4px 3px rgb(250, 210, 229) ;
+    border: 2px solid #d0dde6;
+    box-shadow: 4px 3px #b7c7d3;
     overflow: hidden;
 
-}   
-
+}
