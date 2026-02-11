@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+h1 {
+    /* text-decoration: underline dotted rgb(208, 221, 230); */
+    border-bottom: 15px dotted rgb(208, 221, 230);
+}
+
+#logo {
+    width: 250px;
+}
+
+button {
+
+}
+

@@ -20,14 +20,14 @@
 .content ul{
     font-family:  'Amatic SC', cursive;
     font-size: 30px;
-    list-style-image: url(/imágenes/cookie2.svg);
+    list-style-image: url(/src/cookie2.svg);
 }
 
 /* .content ul li{
     padding-left: 10px;
 }
 .content ul li::marker{
-    content: url(/imágenes/cookie2.svg);
+    content: url(/src/cookie2.svg);
 } */
 
 

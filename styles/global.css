@@ -1,0 +1,19 @@
+*{ background-color: #fff5ee;}
+
+h1{
+ font-family:  'Amatic SC', cursive;
+ font-size: 2.5rem;
+}
+
+span,
+h2,
+h3,
+p,
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    padding: 0.25rem 1rem;
+    border-radius: 1.5rem;
+}
